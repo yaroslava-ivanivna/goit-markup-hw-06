@@ -100,7 +100,7 @@ text-align: left;
 cursor: pointer;
 background-color: #404BBF;
 }
-.order-service-button :active {
+.order-service-button :focus {
     background-color: #404BBF;
 }
 .advantage-title {
@@ -158,14 +158,13 @@ letter-spacing: 0.02em;
 .portfolio-title {
 font-family: Roboto;
 color:#2E2F42;
-font-size: 20px;
+font-size: 36px;
 font-weight: 500;
-line-height: 24px;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: left;
 text-align: center;
 text-transform: capitalize;
-line-height: 1.2;
 }
 .portfolio-text {
 font-family: Roboto;
