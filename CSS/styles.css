@@ -194,10 +194,16 @@ text-align: left;
     line-height: 1.17;
     text-transform: uppercase;
     color:#4d5ae5;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.03em;
 }
 .logo-footer-span-part {
     font-family: "Raleway", sans-serif;
     line-height: 1.17;
     color: #f4f4fd;
     text-transform:uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.03em;
 }
