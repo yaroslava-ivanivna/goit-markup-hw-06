@@ -9,7 +9,12 @@ body {
     font-weight: 700;
     line-height: 21px;
     letter-spacing: 0.03em;
-    text-align: left;    
+    text-align: left;  
+    line-height: 1.17;  
+    text-transform: uppercase;
+}
+.web-log-span-part {
+    color: #2e2f42;
 }
 .first-nav-list{
     font-family: Roboto;
@@ -62,16 +67,18 @@ text-align: left;
 background-color: #2E2F42;
 }
 .main-heading {
-font-family: Roboto;
+font-family: Roboto, sans-serif;
 color: #FFFFFF;
 font-size: 56px;
 font-weight: 700;
 line-height: 60px;
 letter-spacing: 0.02em;
 text-align: center;
+line-height: 1.07;
 }
 .order-service-button {
-color: #4D5AE5;
+color: #FFFFFF;
+background-color: #4D5AE5;
 font-family: Roboto;
 font-size: 16px;
 font-weight: 500;
@@ -81,7 +88,8 @@ text-align: left;
 cursor: pointer;
 }
 .order-service-button :hover {
-    color:#404BBF;
+color:#FFFFFF;
+background-color: #404BBF;
 font-family: Roboto;
 font-size: 16px;
 font-weight: 500;
@@ -89,6 +97,9 @@ line-height: 24px;
 letter-spacing: 0.04em;
 text-align: left;
 cursor: pointer;
+}
+.order-service-button :focus {
+    background-color: #404BBF;
 }
 .advantage-title {
 font-family: Roboto;
@@ -106,21 +117,21 @@ font-size: 16px;
 font-weight: 400;
 letter-spacing: 0.02em;
 text-align: left;
+line-height: 1.5;
 }
 .second-header-section{
-    background-color: 
-#F4F4FD;
-
+background-color:#F4F4FD;
 }
 .second-header-title{
     font-family: Roboto;
     color: #2E2F42;
-    
+    line-height: 1.11;
     font-size: 36px;
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
 }
 
 .name-title {
@@ -143,11 +154,14 @@ letter-spacing: 0.02em;
 .portfolio-title {
 font-family: Roboto;
 color:#2E2F42;
-font-size: 20px;
+font-size: 36px;
 font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.02em;
 text-align: left;
+line-height: 1.11;
+text-align: center;
+text-transform: capitalize;
 }
 .portfolio-text {
 font-family: Roboto;
@@ -158,6 +172,9 @@ line-height: 24px;
 letter-spacing: 0.02em;
 text-align: left;
 }
+footer {
+    background-color: #2e2f42;
+}
 .footer-text {
 font-family: Roboto;
 color:#F4F4FD;
@@ -166,5 +183,16 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.02em;
 text-align: left;
-
+}
+.web-logo-footer {
+    font-family: "Raleway", sans-serif;
+    line-height: 1.17;
+    text-transform: uppercase;
+    color:#4d5ae5;
+}
+.logo-footer-span-part {
+    font-family: "Raleway", sans-serif;
+    line-height: 1.17;
+    color: #f4f4fd;
+    text-transform:uppercase;
 }
