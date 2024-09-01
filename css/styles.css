@@ -14,12 +14,12 @@ body {
     text-transform: uppercase;
     color:#4d5ae5;
 }
-.web-log-span-part {
+.web-logospan-part {
     color: #2e2f42;
 }
 .first-nav-list{
     font-family: Roboto;
-    color: #2E2F42;
+    color:  #2e2f42;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -44,6 +44,9 @@ line-height: 24px;
 letter-spacing: 0.02em;
 text-align: left;
 
+}
+.first-nav-list :focus {
+    color: #404bbf;
 }
 .contacts {
 font-family: Roboto;
@@ -97,11 +100,11 @@ font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.04em;
 text-align: left;
-cursor: pointer;
 background-color: #404BBF;
+cursor: pointer;
 }
 .order-service-button :focus{
-    background-color: #404BBF;
+background-color: #404BBF;
 }
 .advantage-title {
 font-family: Roboto;
@@ -157,9 +160,9 @@ letter-spacing: 0.02em;
 .portfolio-title {
 font-family: Roboto;
 color:#2E2F42;
-font-size: 20px;
+font-size: 36px;
 font-weight: 500;
-line-height: 1.2;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: left;
 text-align: center;
@@ -196,7 +199,7 @@ text-align: left;
     font-size: 18px;
     letter-spacing: 0.03em;
 }
-.logo-footer-span-part {
+.logo-footerspan-part {
     font-family: "Raleway", sans-serif;
     line-height: 1.17;
     color: #f4f4fd;
