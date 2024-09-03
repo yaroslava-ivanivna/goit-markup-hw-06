@@ -166,16 +166,25 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.02em;
 }
+.fourth-section-title {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    line-height: 1.11;
+    color:#2E2F42;
+}
 .portfolio-title {
-font-family: Roboto;
-color:#2E2F42;
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
-text-align: left;
-text-align: center;
-text-transform: capitalize;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+    line-height: 1.2;
 }
 .portfolio-text {
 font-family: Roboto;
