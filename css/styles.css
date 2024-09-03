@@ -37,7 +37,7 @@ letter-spacing: 0.02em;
 text-align: left;
 }
 .navigation-list:active {
-color:#404BBF;
+color:#404bbf;
 font-family: Roboto;
 font-size: 16px;
 font-weight: 500;
@@ -147,7 +147,9 @@ background-color:#F4F4FD;
     text-align: center;
     text-transform: capitalize;
 }
-
+.third-section-list {
+    background-color: #FFFFFF;
+}
 .name-title {
 font-family: Roboto;
 color: #2E2F42;
