@@ -17,7 +17,7 @@ body {
 .logo-span-part {
     color: #2e2f42;
 }
-.first-nav-list{
+.navigation-list{
     font-family: Roboto;
     color:  #2e2f42;
     font-size: 16px;
@@ -26,7 +26,7 @@ body {
     letter-spacing: 0.02em;
     text-align: left; 
 }
-.first-nav-list :hover {
+.navigation-list:hover {
 font-family: Roboto;
 color: #404BBF;
 font-size: 16px;
@@ -35,7 +35,7 @@ line-height: 24px;
 letter-spacing: 0.02em;
 text-align: left;
 }
-.first-nav-list :active {
+.navigation-list:active {
 color:#404BBF;
 font-family: Roboto;
 font-size: 16px;
@@ -45,7 +45,7 @@ letter-spacing: 0.02em;
 text-align: left;
 
 }
-.first-nav-list :focus {
+.navigation-list:focus {
     color: #404bbf;
 }
 .contacts {
@@ -58,7 +58,7 @@ letter-spacing: 0.02em;
 text-align: left;
 font-style: normal;
 }
-.contacts :hover {
+.contacts:hover {
 color:#404BBF;
 font-family: Roboto;
 font-size: 16px;
@@ -92,7 +92,7 @@ letter-spacing: 0.04em;
 text-align: left;
 cursor: pointer;
 }
-.order-service-button :hover{
+.order-service-button:hover {
 color:#FFFFFF;
 font-family: Roboto;
 font-size: 16px;
@@ -199,7 +199,7 @@ text-align: left;
     font-size: 18px;
     letter-spacing: 0.03em;
 }
-.logo-footerspan-part {
+.logospan-part {
     font-family: "Raleway", sans-serif;
     line-height: 1.17;
     color: #f4f4fd;
