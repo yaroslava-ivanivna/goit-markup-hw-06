@@ -175,6 +175,7 @@ letter-spacing: 0.02em;
     text-align: center;
     line-height: 1.11;
     color:#2E2F42;
+    text-transform: capitalize;
 }
 .portfolio-title {
     font-family: Roboto;
