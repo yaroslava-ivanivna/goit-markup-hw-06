@@ -98,9 +98,7 @@ body {
 }
 .order-service-button:hover 
 .order-service-button:focus {
-  color: #ffffff;
   background-color: #404BBF;
-  cursor: pointer;
 }
 .advantage-title {
   font-family: Roboto;
@@ -126,13 +124,13 @@ body {
 .second-header-title {
   font-family: Roboto;
   color: #2e2f42;
-  line-height: 1.11;
-  font-size: 36px;
+   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  line-height: 1.11;
 }
 .third-section-list {
   background-color: #ffffff;
