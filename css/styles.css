@@ -1,231 +1,218 @@
 body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 .weblogo {
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0.03em;
-    text-align: left;  
-    line-height: 1.17;  
-    text-transform: uppercase;
-    color:#4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  line-height: 1.17;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 .logo-span-part {
-    color: #2e2f42;
+  color: #2e2f42;
 }
-.navigation-list{
-    font-family: Roboto;
-    color:  #2e2f42;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left; 
+.navigation-list {
+  font-family: Roboto;
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
-.navigation-list:hover, 
+.navigation-list:hover,
 .navigation-list:focus {
-font-family: Roboto;
-color: #404BBF;
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: left;
+  color: #404bbf;
 }
 .navigation-list:active {
-color:#404bbf;
-font-family: Roboto;
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: left;
+  color: #404bbf;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 .first-navigation-link {
-    color: #2e2f42;
+  color: #2e2f42;
 }
 .first-navigation-link:hover,
 .first-navigation-link:focus {
-    color: #404bbf;
+  color: #404bbf;
 }
 .contacts {
-font-family: Roboto;
-color: #434455;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: left;
-font-style: normal;
+  font-family: Roboto;
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  font-style: normal;
 }
 .contacts:hover {
-color:#404BBF;
-font-family: Roboto;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: left;
-
+  color: #404bbf;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 .contact-item {
-    color: #434455;
+  color: #434455;
 }
 .contact-item:hover,
 .contact-item:active {
-    color:#404bbf;
+  color: #404bbf;
 }
 .hero-image-section {
-background-color: #2E2F42;
+  background-color: #2e2f42;
 }
 .main-heading {
-font-family: Roboto, sans-serif;
-color: #FFFFFF;
-font-size: 56px;
-font-weight: 700;
-line-height: 60px;
-letter-spacing: 0.02em;
-text-align: center;
-line-height: 1.07;
+  font-family: Roboto, sans-serif;
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  line-height: 1.07;
 }
 .order-service-button {
-color: #FFFFFF;
-background-color: #4D5AE5;
-font-family: Roboto, sans-serif;
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.04em;
-text-align: left;
-cursor: pointer;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  cursor: pointer;
 }
 .order-service-button:hover 
 .order-service-button:focus {
-color:#FFFFFF;
-font-family: Roboto;
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.04em;
-text-align: left;
-background-color: #404BBF;
-cursor: pointer;
+  color: #ffffff;
+  background-color: #404BBF;
+  cursor: pointer;
 }
 .advantage-title {
-font-family: Roboto;
-color: #2E2F42;
-font-size: 20px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: left;
+  font-family: Roboto;
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 .advantage-text {
-font-family: Roboto;
-color: #434455;
-font-size: 16px;
-font-weight: 400;
-letter-spacing: 0.02em;
-text-align: left;
-line-height: 1.5;
+  font-family: Roboto;
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-align: left;
+  line-height: 1.5;
 }
-.second-header-section{
-background-color:#F4F4FD;
+.second-header-section {
+  background-color: #f4f4fd;
 }
-.second-header-title{
-    font-family: Roboto;
-    color: #2E2F42;
-    line-height: 1.11;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
+.second-header-title {
+  font-family: Roboto;
+  color: #2e2f42;
+  line-height: 1.11;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 .third-section-list {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .name-title {
-font-family: Roboto;
-color: #2E2F42;
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
-background-color: #FFFFFF;
+  font-family: Roboto;
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  background-color: #ffffff;
 }
 .job-title {
-font-family: Roboto;
-color:#434455;
-background-color: #FFFFFF;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.02em;
+  font-family: Roboto;
+  color: #434455;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
 }
 .fourth-section-title {
-    font-family: Roboto;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0.02em;
-    text-align: center;
-    line-height: 1.11;
-    color:#2E2F42;
-    text-transform: capitalize;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  line-height: 1.11;
+  color: #2e2f42;
+  text-transform: capitalize;
 }
 .portfolio-title {
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: #2E2F42;
-    line-height: 1.2;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #2e2f42;
+  line-height: 1.2;
 }
 .portfolio-text {
-font-family: Roboto;
-color:#434455;
-font-size: 16px;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.02em;
-text-align: left;
-background-color: #FFFFFF;
+  font-family: Roboto;
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
+  background-color: #ffffff;
 }
 footer {
-    background-color: #2e2f42;
+  background-color: #2e2f42;
 }
 .footer-text {
-font-family: Roboto;
-color:#F4F4FD;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: left;
+  font-family: Roboto;
+  color: #f4f4fd;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 .weblogo-footer {
-    font-family: "Raleway", sans-serif;
-    line-height: 1.17;
-    text-transform: uppercase;
-    color:#4d5ae5;
-    font-weight: 700;
-    font-size: 18px;
-    letter-spacing: 0.03em;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.17;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.03em;
 }
 .logospan-part {
-    font-family: "Raleway", sans-serif;
-    line-height: 1.17;
-    color: #f4f4fd;
-    text-transform:uppercase;
-    font-weight: 700;
-    font-size: 18px;
-    letter-spacing: 0.03em;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.17;
+  color: #f4f4fd;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.03em;
 }
