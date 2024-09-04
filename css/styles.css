@@ -69,7 +69,7 @@ body {
   color: #434455;
 }
 .contact-item:hover,
-.contact-item:active {
+.contact-item:focus {
   color: #404bbf;
 }
 .hero-image-section {
