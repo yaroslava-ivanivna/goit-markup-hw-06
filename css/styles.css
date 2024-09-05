@@ -91,7 +91,7 @@ body {
   text-align: left;
   cursor: pointer;
 }
-.order-service-button:hover 
+.order-service-button:hover, 
 .order-service-button:focus {
   background-color: #404BBF;
 }
