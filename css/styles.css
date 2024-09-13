@@ -147,6 +147,8 @@ body {
   }
 .hero-image-section {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
     
 }
 .main-heading {
@@ -159,8 +161,6 @@ body {
   text-align: center;
   line-height: 1.07;
   max-width: 496px;
-  padding-top: 188px;
-  margin-bottom: 292px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -177,14 +177,20 @@ body {
   max-width: 169px;
   height: 56px;
   display: block;
+  border: none;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 4px;
  
 }
 .order-service-button:hover,
 .order-service-button:focus {
   color: #ffffff;
   background-color: #404BBF;
+}
+.advantage-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .advantages-description {
   display: flex;
@@ -214,6 +220,8 @@ body {
 }
 .second-heading-section {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
   margin-top: 61px;
   margin-bottom: 60px;
 }
@@ -227,6 +235,7 @@ body {
   text-align: center;
   text-transform: capitalize;
   line-height: 1.11;
+  margin-bottom: 72px;
 }
 .team-list {
   display: flex;
@@ -239,6 +248,8 @@ body {
     
 }
 .portfolio-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
   margin-top: 60px;
   margin-bottom: 60px;
 }
@@ -274,6 +285,7 @@ body {
   line-height: 1.11;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .portfolio-section-list {
   display:flex;
@@ -306,6 +318,7 @@ body {
 }
 footer {
   background-color: #2e2f42;
+ 
 }
 .footer-text {
   font-family: Roboto;
@@ -327,9 +340,8 @@ footer {
   font-weight: 700;
   font-size: 18px;
   letter-spacing: 0.03em;
-  display: block;
-  padding-top: 100px;
-  padding-bottom: 10px;
+  display: inline-block;
+  margin-bottom: 16px; 
   
 }
 .logospan-part {
@@ -343,4 +355,6 @@ footer {
 }
 .footer-info {
   display:inline-block;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
