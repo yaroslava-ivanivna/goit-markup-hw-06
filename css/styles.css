@@ -180,8 +180,10 @@ body {
   border: none;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
   border-radius: 4px;
   min-width: 169px;
+  margin-top:48px;
  
 }
 .order-service-button:hover,
@@ -224,8 +226,7 @@ body {
   background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
-  margin-top: 61px;
-  margin-bottom: 60px;
+  
 }
 .second-heading-title {
   font-family: Roboto;
@@ -258,9 +259,7 @@ padding-bottom: 32px;
 .portfolio-section {
   padding-top: 120px;
   padding-bottom: 120px;
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
+  }
 .name-title {
   font-family: Roboto;
   color: #2e2f42;
@@ -348,7 +347,7 @@ footer {
   letter-spacing: 0.02em;
   text-align: left;
   max-width: 264px;
-  padding-bottom: 50px;
+  
   
 }
 .weblogo-footer {
@@ -374,5 +373,4 @@ footer {
 }
 .footer-info {
   display:inline-block;
-  
-}
+ }
