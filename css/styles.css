@@ -285,7 +285,7 @@ color: #404bbf;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   gap: 24px; 
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   }
 .workers-info {
 padding-top: 32px;
@@ -329,7 +329,7 @@ padding-bottom: 32px;
 .social-list-wrapper {
   display: flex;
   column-gap: 24px;
-  
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-link {
   display: flex;
@@ -425,7 +425,7 @@ padding-bottom: 32px;
 font-family: Roboto;
 font-size: 16px;
 font-weight: 400;
-line-height: 1.5px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: left;
 }
@@ -491,7 +491,9 @@ footer {
   display: flex;
   gap:16px;
   align-items: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+.social-webs-link {
+  transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social-list-link {
   display: flex;
