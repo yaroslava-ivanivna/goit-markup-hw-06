@@ -488,13 +488,16 @@ footer {
 
 }
 
-
+.social-webs-link {
+  display: flex;
+  gap: 16px;
+}
 .footer-social-list-link {
   display: flex;
   justify-content: center;
   align-items: center;
   gap:16px;
-  width:40px;
+  width: 40px;
   height:40px;
   border-radius: 50%;
   background-color: #4D5AE5;
