@@ -511,6 +511,48 @@ footer {
 .footer-social-list-link:focus {
   background-color: #31D0AA;
 }
+.footer-form {
+  padding-left:80px;
+  }
+.footer-form-title {
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #FFFFFF;
+padding-bottom: 16px;
+}
+.footer-users-form {
+  position: relative;
+}
+.foter-button-subscribe-icon {
+  position:absolute;
+  top: 8px;
+  right: 10px;
+}
+.footer-email-input {
+  background-color: #2E2F42;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+}
+.footer-form-user-button {
+  width: 165px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #4D5AE5;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  text-align: center;
+
+}
 .modal-backdrop {
   position: fixed;
   top:0;
