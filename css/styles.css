@@ -644,6 +644,10 @@ margin-bottom: 16px;
 }
 .review-form-wrapper {
   display: block;
+  margin-bottom: 8px;
+}
+.review-form-wrapper-comment {
+  isplay: block;
   margin-bottom: 16px;
 }
 .review-form-label{
