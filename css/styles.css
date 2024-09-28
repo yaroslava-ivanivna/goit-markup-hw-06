@@ -514,6 +514,10 @@ footer {
 .footer-form {
   padding-left:80px;
   }
+.footer-form-for-users{
+  display: flex;
+  gap:24px;
+}
 .footer-form-title {
 font-family: Roboto;
 font-size: 16px;
@@ -522,36 +526,42 @@ line-height: 24px;
 letter-spacing: 0.02em;
 text-align: left;
 color: #FFFFFF;
-padding-bottom: 16px;
-}
-.footer-users-form {
-  position: relative;
-}
-.foter-button-subscribe-icon {
-  position:absolute;
-  top: 8px;
-  right: 10px;
+margin-bottom: 16px;
 }
 .footer-email-input {
-  background-color: #2E2F42;
+  background-color: transparent;
   border: 1px solid #FFFFFF;
   border-radius: 4px;
   width: 264px;
   height: 40px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.input::placeholder {
+  color: #FFFFFF;
 }
 .footer-form-user-button {
-  width: 165px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 165px;
   height: 40px;
   border-radius: 4px;
   background-color: #4D5AE5;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif; 
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #FFFFFF;
-  text-align: center;
-
+  cursor: pointer;
+  border: none;
+}
+.footer-button-subscribe-icon {
+  margin-left: 16px;
 }
 .modal-backdrop {
   position: fixed;
