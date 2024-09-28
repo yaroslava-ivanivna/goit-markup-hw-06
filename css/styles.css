@@ -644,7 +644,7 @@ margin-bottom: 16px;
 }
 .review-form-wrapper {
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .review-form-label{
 color:#8E8F99;
@@ -676,10 +676,6 @@ margin-bottom:4px;
 }
 .review-form-input-wrapper {
   position:relative;
-}
-.reviw-form-wrapper {
-  display: block;
-  margin-bottom: 16px;
 }
 .input-icon {
   position: absolute;
