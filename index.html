@@ -36,26 +36,31 @@
 			</svg>
 		</button>
 	</div>
-	<div class="mobile-menu is-open">
+	<!--Мобільне меню-->
+	<div class="mobile-menu">
 		<div class="container mobile-menu-container">
-    <button class="mobile-menu-close">Close</button>
+    <button class="mobile-menu-close" type="button">
+		<svg class="mobile-menu-close-icon" width="8" height="8">
+			<use href="./images/icons.svg#icon-close-button"></use>
+		</svg>
+	</button>
 	<nav class="mobile-menu-navigation">
 		<ul class="mobile-navigation-list">
 			<li>
-				<a href="" class="mobile-navigation-link">Studio </a></li>
+				<a href="" class="mobile-navigation-link current">Studio </a>
 			</li>
 			<li>
-				<a href="" class="mobile-navigation-link">Portfolio </a></li>
+				<a href="" class="mobile-navigation-link">Portfolio </a>
 			</li>
 			<li>
-				<a href="" class="mobile-navigation-link">Contacts </a></li>
+				<a href="" class="mobile-navigation-link">Contacts </a>
 			</li>
 		</ul>
 	</nav>
 	<address class="mobile-menu-contacts">
 		<ul class="mobile-contact-list">
-			<li> <a href="mailto:info@devstudio.com" class="mobile-contact-item">info@devstudio.com</a></li>
-			<li> <a href="tel:+110001111111" class="mobile-contact-item">+11 (000) 111-11-11</a></li>
+			<li class="mobile-menu-links"> <a href="mailto:info@devstudio.com" class="mobile-contact-item">info@devstudio.com</a></li>
+			<li class="mobile-menu-links"> <a href="tel:+110001111111" class="mobile-contact-item">+11 (000) 111-11-11</a></li>
 		</ul>
 	</address>
 	<ul class="mobile-menu-social-webs"> 
