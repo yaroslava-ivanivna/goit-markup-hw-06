@@ -15,7 +15,7 @@ p {
 }
 a {
   text-decoration: none;
-  color: inherits;
+  color: inherit;
 }
 img {
   display: block;
@@ -970,7 +970,8 @@ body {
     margin-bottom: 16px;
   }
   .footer-form {
-    margin-left: o;
+    padding-left: 80px;
+    margin-left: 0;
     margin-right: 0;
   }
   .footer-form-title {
