@@ -949,9 +949,7 @@ body {
   .footer-info {
     padding-top: 100px;
     padding-bottom: 100px;
-  }
-
-  .footer-info {
+    row-gap: 0;
     flex-wrap: nowrap;
     align-items: baseline;
     column-gap: 0px;
@@ -972,7 +970,6 @@ body {
     margin-bottom: 16px;
   }
   .footer-form {
-    padding-left: 80px;
     margin-left: o;
     margin-right: 0;
   }
