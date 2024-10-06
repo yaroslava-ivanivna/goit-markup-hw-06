@@ -766,13 +766,13 @@ body {
 /* footer */
 .footer {
   background-color: #2e2f42;
-  padding-top: 96px;
-  padding-bottom: 96px;
 }
 .footer-info {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .footer-logo-info {
   padding-bottom: 72px;
@@ -973,6 +973,8 @@ body {
   }
   .footer-form {
     padding-left: 80px;
+    margin-left: o;
+    margin-right: 0;
   }
   .footer-form-title {
     margin-bottom: 16px;
