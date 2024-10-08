@@ -905,10 +905,12 @@ body {
 @media screen and (min-width: 768px) {
   .footer-info {
     flex-direction: row;
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
     column-gap: 24px;
     row-gap: 72px;
+    padding-left: 108px;
+    padding-right: 108px;
   }
   .footer-logo-info {
     padding-bottom: 18px;
@@ -954,6 +956,8 @@ body {
     align-items: baseline;
     column-gap: 0px;
     row-gap: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .footer-logo-info {
     margin-right: 120px;
