@@ -50,6 +50,9 @@ body {
   padding-right: 16px;
   margin-left: auto;
   margin-right: auto;
+  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -118,12 +121,11 @@ body {
     display: block;
     padding-top: 24px;
     padding-bottom: 24px;
-    margin-right: 80px;
+    margin-right: 120px;
   }
   .page-nav {
     display: flex;
     align-items: center;
-    gap: 40px;
   }
   .navigation-list {
     font-family: Roboto;
@@ -848,6 +850,7 @@ body {
 .footer-social-list-link:focus {
   background-color: #31d0aa;
 }
+
 .footer-form-for-users {
   display: flex;
   flex-direction: column;
@@ -868,6 +871,10 @@ body {
   justify-content: center;
 }
 .footer-email-input {
+  box-sizing: border-box;
+  padding-left: 16px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: transparent;
   border: 1px solid #ffffff;
   color: #ffffff;
@@ -913,7 +920,7 @@ body {
     padding-right: 108px;
   }
   .footer-logo-info {
-    padding-bottom: 18px;
+    padding-bottom: 0px;
   }
   .footer-social-links {
     display: flex;
@@ -932,6 +939,9 @@ body {
 
   .footer-email-input {
     width: 264px;
+    box-sizing: content-box;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   .footer-form-for-users {
     flex-direction: row;
@@ -979,7 +989,7 @@ body {
   }
   .footer-form-title {
     margin-bottom: 16px;
-    margin-left: 20px;
+    margin-left: 0px;
   }
   .footer-email-input {
     padding-left: 16px;
