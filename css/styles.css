@@ -839,7 +839,7 @@ body {
 
 @media screen and (max-width: 768px) {
   .footer-social-links-list {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
   }
 }
 
@@ -997,8 +997,7 @@ body {
     margin-bottom: 16px;
   }
   .footer-form {
-    padding-left: 80px;
-    margin-left: 0;
+    margin-left: 80px;
     margin-right: 0;
   }
   .footer-form-title {
